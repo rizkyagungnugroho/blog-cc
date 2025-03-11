@@ -27,9 +27,6 @@ const Jumbotron = () => {
                 {""}
               </p>
 
-              <Link href="https://www.instagram.com/rzkyagngngroho_">
-                <Button className="bg-[#5E3BEE] mt-6">Read More</Button>
-              </Link>
             </div>
           </div>
           {/*KOLOM2!*/}

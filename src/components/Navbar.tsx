@@ -22,9 +22,7 @@ const Navbar = () => {
           </p> 
         </div>
        
-        <Button variant="outline" className="hidden text-purple-500 hover:text-gray500  md:block">
-          Contact Me
-        </Button>
+      
 
         <DropdownMenu>
           {/* jadi tampilan desktop dibuat block kalo mau di tampilan mobile md:hidden */}
@@ -45,8 +43,6 @@ const Navbar = () => {
               {" "}
               <Link href="/about">About</Link>
             </DropdownMenuItem>
-
-            <DropdownMenuItem>Testimonials</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
