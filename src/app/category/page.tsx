@@ -89,12 +89,12 @@ export default function Home() {
                 <img
                   src={review.thumbnail}
                   alt={review.title}
-                  className="w-full md:w-32 h-32 object-cover rounded-md mb-4 md:mb-0 md:mr-4"
+                  className="w-full md:w-40 h-50 object-cover rounded-md mb-4 md:mb-0 md:mr-4"
                 />
                 <CardContent className="flex-1">
                   <h2 className="text-lg md:text-xl font-semibold">{review.title}</h2>
                   <p className="text-sm text-gray-500">Kategori: {review.category}</p>
-                  <p className="mt-2 text-gray-700 line-clamp-2">{review.description}</p>
+                  <p className="mt-2 text-gray-700 line-clamp-5">{review.description}</p>
                 </CardContent>
               </Card>
             ))}

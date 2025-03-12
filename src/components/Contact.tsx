@@ -18,7 +18,7 @@ export default function Contact() {
   ];
 
   return (
-    <section className="relative py-14 bg-gray-900 flex justify-center items-center ">
+    <section className="relative py-14 bg-gray-900 flex justify-between items-center ">
       <div className="relative z-10 max-w-screen-md mx-auto px-4 text-gray-400 md:px-8 text-center">
         <div className="max-w-lg mx-auto">
           <h3 className="text-amber-400 text-3xl font-semibold sm:text-4xl">Contact</h3>

@@ -47,7 +47,7 @@ export default function ReviewDetail() {
 
     fetchReview();
   }, [slug]);
-
+  
   if (loading) return <p className="text-center text-gray-500">Loading...</p>;
   if (!review) return <p className="text-center text-red-500">Review tidak ditemukan.</p>;
 

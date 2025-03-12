@@ -6,12 +6,12 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="container m-auto">
-      <div className="flex items-center justify-between py-4">
-        <Image src="/logo.png" alt="Logo" width={187} height={40} />
+      <div className="flex items-center justify-between py-1">
+        <Image src="/logo.png" alt="Logo" width={100  } height={40} />
 
         <div className="text-semibold  cursor-pointer items-center gap-4 hidden md:flex">
           <p>
-            <Link href="/">HomePage</Link>
+            <Link href="/">Home</Link>
             </p>
          
           <p>
@@ -22,7 +22,7 @@ const Navbar = () => {
           </p> 
         </div>
        
-      
+       
 
         <DropdownMenu>
           {/* jadi tampilan desktop dibuat block kalo mau di tampilan mobile md:hidden */}
